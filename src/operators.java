@@ -11,11 +11,13 @@ public class operators {
             double d = c * a;
             double e = d / b;
             double f = e % a;
-
+            double g = f - e;
+            
             System.out.println(" 12 + 15 = " + c);
             System.out.println(" 27 * 12 = " + d);
             System.out.println(" 324 / 15 = " + e);
             System.out.println(" 21.6 % 15 = " + f);
+            System.out.println(" 9.600000000000001 - 21.6 =" + g);
 
         }
     }
